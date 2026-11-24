@@ -1,0 +1,25 @@
+{
+  "name": "explain-live",
+  "version": "0.1.0",
+  "description": "A side pane that keeps a running summary of a Claude Code session: goal, approach, decisions the AI made on its own, and the files it changed. Includes the explain-me skill.",
+  "author": {
+    "name": "Sixeight"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Sixeight/explain-live",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Language of the pane and of the summary Claude writes: en or ja",
+      "default": "en"
+    },
+    "explainCommand": {
+      "type": "string",
+      "title": "Explain diff command",
+      "description": "Skill or command the Explain diff button runs, e.g. my-plugin:my-skill",
+      "default": "explain-live:explain-me"
+    }
+  }
+}

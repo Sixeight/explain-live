@@ -1,0 +1,13 @@
+{
+  "name": "explain-live",
+  "owner": {
+    "name": "Sixeight"
+  },
+  "plugins": [
+    {
+      "name": "explain-live",
+      "source": "./",
+      "description": "Side pane with a running summary of a Claude Code session, plus the explain-me skill"
+    }
+  ]
+}
